@@ -1,0 +1,63 @@
+.header {
+background-color: var(--color-white);
+}
+
+.todo-header{
+background-color: var(--color-white);    
+}
+
+.todo-header__title{
+background-color: var(--color-white);
+}
+
+.todo-header__counter{
+background-color: var(--color-white);
+}
+
+.main {
+background-color: var(--color-white);
+}
+
+.todo-filters {
+background-color: var(--color-white);
+}
+
+.todo-form {
+background-color: var(--color-white);
+}
+
+.todo-form__btn {
+background-color: var(--color-white);
+}
+
+.todo-list {
+background-color: var(--color-white);
+}
+
+.todo-list__item {
+background-color: var(--color-white);
+}
+
+.todo-list__checkbox {
+background-color: var(--color-white);
+}
+
+.todo-list__text {
+background-color: var(--color-white);
+}
+
+.todo-list__btn {
+background-color: var(--color-white);
+}
+
+.todo-list__btn {
+background-color: var(--color-white);
+}
+
+.todo-list__btn-edit {
+background-color: var(--color-white);
+}
+
+.todo-list__btn-delete {
+background-color: var(--color-white);
+}
