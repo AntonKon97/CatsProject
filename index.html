@@ -1,8 +1,7 @@
 <!DOCTYPE html>
-<html lang="uk">
+<html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>To Do List</title>
     <script
@@ -10,16 +9,9 @@
       integrity="sha384-D1Kt99CQMDuVetoL1lrYwg5t+9QdHe7NLX/SoJYkXDFfX37iInKRy5xLSi8nO7UC"
       crossorigin="anonymous"
     ></script>
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <header class="header">
-      <nav
-        data-hx-trigger="load"
-        data-hx-swap="outerHTML"
-        data-hx-get="global.header-nav.partial.html"
-      ></nav>
-    </header>
-
     <main class="main">
       <section
         data-hx-trigger="load"
@@ -38,12 +30,8 @@
         data-hx-swap="outerHTML"
         data-hx-get="todo.list.partial.html"
       ></section>
-
-      <section
-        data-hx-trigger="load"
-        data-hx-swap="outerHTML"
-        data-hx-get="todo.filters.partial.html"
-      ></section>
     </main>
-  <script src="Index.js"></script></body>
+
+    <script src="todo.js"></script>
+  </body>
 </html>

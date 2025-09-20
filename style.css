@@ -1,0 +1,44 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+}
+
+.todo-header__title {
+  margin: 0;
+}
+
+.todo-form {
+  margin: 10px 0;
+}
+
+.todo-form__input {
+  padding: 5px;
+}
+
+.todo-form__btn {
+  padding: 5px 10px;
+}
+
+.todo-list {
+  list-style: none;
+  padding: 0;
+}
+
+.todo-list__item {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin: 5px 0;
+}
+
+.todo-list__text--done {
+  text-decoration: line-through;
+  color: gray;
+}
+
+.todo-list__btn--delete {
+  border: none;
+  background: none;
+  cursor: pointer;
+  font-size: 16px;
+}
