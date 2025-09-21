@@ -1,44 +1,98 @@
 body {
   font-family: Arial, sans-serif;
   margin: 20px;
+  max-width: 1400px;
 }
 
 .todo-header__title {
-  margin: 0;
+  display: flex;
+  justify-content: center;
+  margin: 5px;
+  padding: 3px;
+}
+
+.todo-header__counter{
+  text-align: center;
+  color: red;
+  max-width: 300px;
+  margin: 10px;
+  padding: 5px;
+  border: solid;
+  border-radius: 6px;
+  border-color: #07a0bb;
+  background-color: beige;
 }
 
 .todo-form {
-  margin: 10px 0;
+  margin: 10px;
+  padding: 5px;
+  max-width: 300px;
+  border: solid;
+  border-radius: 6px;
+  border-color: #07a0bb;
+  background-color: beige;
 }
 
 .todo-form__input {
+  margin: 5px;
   padding: 5px;
 }
 
 .todo-form__btn {
   padding: 5px 10px;
+  border: solid;
+  border-radius: 6px;
+  border-color: blue;
+  background-color: #026928;
 }
 
 .todo-list {
   list-style: none;
+  max-width: 1000px;
   padding: 0;
 }
 
 .todo-list__item {
   display: flex;
   align-items: center;
-  gap: 10px;
-  margin: 5px 0;
+  gap: 15px;
+  margin: 10px;
+  padding: 3px;
+  max-width: 1000px;
+  background-color: beige;
+  border: solid;
+  border-width: 5px;
+  border-radius: 10px;
+  border-color: #9c0376;
 }
 
 .todo-list__text--done {
   text-decoration: line-through;
   color: gray;
+  background-color: beige;
 }
 
 .todo-list__btn--delete {
-  border: none;
-  background: none;
-  cursor: pointer;
   font-size: 16px;
+  margin-left: auto;
+  border: solid;
+  background: white;
+  cursor: pointer;
+  border-radius: 6px;;
+  border-color: black;
+}
+
+.bg-video {
+  position: fixed;    
+  top: 0;
+  left: 0;
+  width: 100vw;    
+  height: 100vh;
+  object-fit: cover;    /* щоб відео перекривало екран */
+  z-index: -1;          /* відправляємо під контент */
+}
+
+.content {
+  position: relative;   /* контент буде поверх відео */
+  z-index: 1;
 }
