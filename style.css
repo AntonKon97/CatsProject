@@ -62,7 +62,7 @@ body {
 
 .todo-list {
   list-style: none;
-  max-width: 1000px;
+  max-width: 900px;
   padding: 0;
 }
 
@@ -112,7 +112,7 @@ body {
 
 .bg-video {
   width: 100%;
-  max-width: 1500px;
+  max-width: 1800px;
   height: 100vh;
   object-fit: cover;
 }
